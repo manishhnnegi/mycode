@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+    width: 100%; /* Ensure the form stretches across the entire width */
+    box-sizing: border-box; /* Include padding and borders in the width */
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input[type="text"], input[type="number"] {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%; /* Ensure input fields stretch fully */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+button {
+    margin: 5px 0;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: auto; /* Default width for button */
+    max-width: 200px; /* Optional: Set a maximum width for the button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}

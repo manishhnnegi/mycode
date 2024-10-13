@@ -1,0 +1,38 @@
+{
+    "items:": {
+        "8106c2b579fd49008536e60368c615f8": {
+            "id": "8106c2b579fd49008536e60368c615f8",
+            "name": "Chair",
+            "price": 30.88,
+            "store_id": "b388bfa0263c4f7a988957a8c01ce6d9"
+        },
+        "8a138ed5c96440488afeea7b3d4b31fa": {
+            "id": "8a138ed5c96440488afeea7b3d4b31fa",
+            "name": "Chair",
+            "price": 15.88,
+            "store_id": "3fb652a788254b39b9b29e5c22675f74"
+        },
+        "bf3d6700ebb24a45b8680f4650820059": {
+            "id": "bf3d6700ebb24a45b8680f4650820059",
+            "name": "Table",
+            "price": 20.88,
+            "store_id": "b388bfa0263c4f7a988957a8c01ce6d9"
+        },
+        "fe2df9335a33498285bbde0c05362680": {
+            "id": "fe2df9335a33498285bbde0c05362680",
+            "name": "Table",
+            "price": 10.88,
+            "store_id": "3fb652a788254b39b9b29e5c22675f74"
+        }
+    },
+    "stores:": {
+        "3fb652a788254b39b9b29e5c22675f74": {
+            "id": "3fb652a788254b39b9b29e5c22675f74",
+            "name": "My Store"
+        },
+        "b388bfa0263c4f7a988957a8c01ce6d9": {
+            "id": "b388bfa0263c4f7a988957a8c01ce6d9",
+            "name": "My father's Store"
+        }
+    }
+}
