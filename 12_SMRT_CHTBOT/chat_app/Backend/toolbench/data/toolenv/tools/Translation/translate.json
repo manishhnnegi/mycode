@@ -1,0 +1,32 @@
+{
+
+    "name": "language_translator",
+    "url": "https://text-translator2.p.rapidapi.com/translate",
+
+    "api_name": "language_translator",
+
+    "description":  "An Endpoint to translate sentence from one language to another language.",
+
+    "parameters": [
+
+        {
+                    "name": "source_language",
+                    "type": "STRING",
+                    "description": "source language of the given sentece e.g. en, hi"
+
+                },
+                {
+                    "name": "target_language",
+                    "type": "STRING",
+                    "description": "target language in which given sentece is to be translated e.g. hi, id"
+
+                },
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "description": "given text to for translation",
+                    "default": ""
+                }
+    ]
+
+}

@@ -1,0 +1,21 @@
+{
+
+    "name": "wikisearch",
+    "url": "",
+
+    "api_name": "wikisearch",
+
+    "description":  "An Endpoint to get search results from wikipedia for any user query.",
+
+    "parameters": [
+
+        {
+            "name":"query",
+            "type":"STRING",
+            "description":"User query to be asked to the wikipidia"
+            
+        }
+    
+    ]
+
+}

@@ -1,0 +1,21 @@
+{
+
+    "name": "v1_weather",
+    "url": "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather",
+
+    "api_name": "v1_weather",
+
+    "description":  "An Endpoint to get weather of any perticular city.",
+
+    "parameters": [
+
+        {
+            "name":"city",
+            "type":"STRING",
+            "description":"City name."
+            
+        }
+    
+    ]
+
+}

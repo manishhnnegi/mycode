@@ -1,0 +1,172 @@
+.rightSection {
+    background-color: var(--col2);
+    height: 100vh;
+    padding: 0 20px;
+    justify-content: space-between;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .chatHeading {
+    font-size: 24px;
+    color: var(--textcol);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .messages {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: auto;
+    padding: 0 10px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: flex-end;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .message.user-message {
+    margin-left: auto;
+    background-color: #d1e7dd;
+    text-align: right;
+  }
+  
+  .message.gpt-message {
+    margin-right: auto;
+    background-color: #d1e7dd;
+    text-align: left;
+  }
+  
+  .message img.avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  .message-content h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .message-content p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0 0;
+  }
+  
+  .bottomsection {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .messagebar {
+    border: 1px solid gray;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .messagebar input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: var(--textcol);
+    width: 100%;
+  }
+  
+  .messagebar button {
+    cursor: pointer;
+    border: none;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  .messagebar button:hover {
+    background: #0056b3;
+  }
+  
+  
+  .appContainer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .leftSection {
+    width: 25%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .leftSection h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sessionsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sessionItem {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .sessionItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .rightSection {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    overflow-x: hidden;
+  }
+  
+  /* Existing .rightSection, .messages, and .message styles remain the same */
+  .leftSection {
+    width: 15%; /* Reduced from 25% */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .rightSection {
+    width: 85%; /* Adjusted to take the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    overflow-x: hidden;
+  }
+  
+  
+  

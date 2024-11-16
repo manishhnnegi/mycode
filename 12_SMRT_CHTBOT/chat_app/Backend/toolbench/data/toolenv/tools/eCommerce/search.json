@@ -1,0 +1,20 @@
+{
+
+    "name": "Search",
+    "url": "https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data/",
+
+    "api_name": "Search",
+
+    "description":  "An Endpoint to Search for product offers on Amazon with support for multiple filters and options.",
+
+    "parameters": [
+
+        {
+                    "name": "query",
+                    "type": "STRING",
+                    "description": "Search query. Supports both free-form text queries or a product asin. e.g. phone"
+
+                }
+    ]
+
+}
